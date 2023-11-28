@@ -1,0 +1,51 @@
+
+.consultaProxima {
+    background-color: #DDEBF5;
+    display: flex;
+    justify-content: space-around;
+    height: 25%;
+    align-items: center;
+    margin: 15% 0;
+    border-radius: 5px;
+}
+
+.consultaBotoes {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+}
+
+.fotoUsuario {
+    width: 25%;
+}
+
+.botaoLogin {
+    background-color: #48A3D7;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px #48A3D7;
+
+}
+
+.botaoLogin:active {
+    background-color: white;
+    color: #48A3D7;
+    border: solid 2px #48A3D7;
+}
+
+.botaoCadastrar {
+    border: solid 2px #48A3D7;
+    padding: 10px;
+    border-radius: 5px;
+    color: #48A3D7;
+}
+
+.botaoCadastrar:active {
+    background-color: #48A3D7;
+    color: white;
+    border: solid 2px white;
+}

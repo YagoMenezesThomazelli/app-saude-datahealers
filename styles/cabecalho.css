@@ -1,0 +1,23 @@
+
+header{
+    background-color: #48A3D7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalhoMenu, .usuario, .lupaPesquisa{
+    width: 35px;
+}
+
+.barraPesquisa{
+    padding: 9px;
+    width: 47%;
+    background-color: #6DBAE5;
+    border: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: white;
+}
