@@ -7,6 +7,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: 8% auto;
+    font-family: Inter, sans-serif;
 }
 
 .paginaInicial {

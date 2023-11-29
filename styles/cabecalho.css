@@ -16,8 +16,15 @@ header{
     background-color: #6DBAE5;
     border: none;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ::placeholder{
     color: white;
+    background-image: url(/icones/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 20px;
 }
