@@ -1,0 +1,127 @@
+.paginaInicial {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.unidadeNome {
+    padding: 5%;
+    width: 85%;
+    background-color: #31A5E7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 8px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.unidadeSelecionada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(180deg, #1A80BA 0%, #076AA3 100%);
+}
+
+.unidadeAvaliacao {
+    color: white;
+    font-size: 0.72rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+}
+
+.servico{
+    font-size: 0.66rem;
+    background-color: #073662;
+    display: flex;
+    border-radius: 5px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+
+}
+.avaliacao {
+    background-color: #073662;
+    display: flex;
+    border-radius: 5px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.info {
+    background-color: #045887;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3% 0;
+}
+
+.informacoes{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.unidadeInfo, .unidadeServicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #073662;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.servicosTexto{
+    padding: 3%;
+    font-size: 0.8rem;
+}
+
+#endereco{
+    text-decoration:underline;
+}
+
+.predio, .relogio{
+    width: 15%;
+}
+
+.unidadeEndereco{
+    font-size: 0.8rem;
+    display: flex;
+    gap: 10px;
+    padding: 5% 5%;
+}
+
+.unidadeHorario{
+    font-size: 0.6rem;
+    display: flex;
+    gap: 10px;
+    padding: 5% 5%;
+    text-wrap: balance;
+}
+
+.infoTitulo, .servicos{
+    background-color: #6CB7FC;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 6px 0;
+    color: white
+}
+
+.unidadeTelefones{
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: center;
+    padding: 5% 3%;
+}

@@ -1,4 +1,4 @@
-.tituloPagina{
+.tituloPagina {
     display: grid;
     grid-template-columns: 33% auto 33%;
     align-items: center;
@@ -7,26 +7,35 @@
     color: white;
 }
 
-body{
+body {
     grid-template-rows: 8% 7% auto;
 }
 
-.titulo{
+.titulo {
     display: flex;
     gap: 10px;
 }
 
-.botaoVoltar{
+.botaoVoltar {
     margin-left: 25px;
     width: 20%;
 }
 
-.botaoVoltar:active{
+.botaoVoltar:active {
     border-radius: 5px;
     background-color: #2cb2ff;
 }
 
-.icone-hospital{
+.icone-hospital {
     width: 16%;
     height: 20%;
+}
+
+.teste {
+    width: 100%;
+}
+
+::placeholder {
+    display: flex;
+    justify-content: center;
 }

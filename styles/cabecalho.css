@@ -23,7 +23,7 @@ header{
 
 ::placeholder{
     color: white;
-    background-image: url(./icones/lupa.png);
+    background-image: url(/icones/lupa.png);
     background-repeat: no-repeat;
     background-position: 0;
     background-size: 20px;
