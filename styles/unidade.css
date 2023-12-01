@@ -1,5 +1,6 @@
+
 .paginaInicial {
-    margin-top: 20px;
+    margin: 5% 5%;
     margin-bottom: 10px;
     height: 100%;
 }
@@ -62,6 +63,7 @@
     justify-content: center;
     border-radius: 5px;
     padding: 3% 0;
+    height: 100%;
 }
 
 .informacoes{
@@ -78,6 +80,7 @@
     border-radius: 5px;
     background-color: #073662;
     color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
 }
 
 .servicosTexto{
@@ -124,4 +127,32 @@
     font-size: 0.7rem;
     justify-content: center;
     padding: 5% 3%;
+}
+
+.feedbackBtnAgendar{
+    background-color: rgba(255, 255, 255, 0.44);
+    padding: 2% 4%;
+    color: white;
+    border-radius: 5px;
+}
+
+.botoesFeddback{
+    display: flex;
+    margin-top: 10px;
+    height: 20%;
+}
+
+
+.feedbackBtnAvaliar{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(7, 54, 98, 1);
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+
+.feedbackBtnReclamar{
+    background-color: rgba(255, 111, 111, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 2% 4%;
+    border-radius: 5px;
 }

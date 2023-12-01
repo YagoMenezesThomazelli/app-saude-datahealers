@@ -1,0 +1,36 @@
+.servico{
+    padding: 2.5%;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeProfissional{
+    background-color: rgba(49, 165, 231, 1);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.profissional{
+    background-color: rgba(4, 88, 135, 1);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3%;
+    align-items: center;
+}
+
+.profissional-contatos{
+    gap: 10px;
+}
+
+.profissionalContato{
+    display: flex;
+    gap: 5px;
+}
